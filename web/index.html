@@ -1,1 +1,34 @@
-hello world!
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name='author' content='Makkusu Otaku'>
+        <link rel="icon" href="icon.png">
+        <title>mc-farmer</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    </head>
+    <body>
+        <div id="map-container">
+            <canvas id="map"></canvas>
+        </div>
+        <div id="info-bar">
+            <div id="yields">
+                <h1>Yields</h1>
+            </div>
+            <div id="bots">
+                <div class="bot">
+                    <img src="assets/head.png" alt="head">
+                    steve
+                </div>
+                <div class="bot">
+                    <img src="assets/head.png" alt="head">
+                    alex
+                </div>
+            </div>
+        </div>
+        <script src="socket.io/socket.io.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
